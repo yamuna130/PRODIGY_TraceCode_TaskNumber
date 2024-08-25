@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-item a:hover {
+    background-color: #FF9800;
+    color: #000;
+    border-radius: 4px;
+}
+
+.navbar.scrolled {
+    background-color: #f44336;
+}
+
+section {
+    padding: 100px;
+    margin-top: 60px;
+    height: 100vh;
+}
